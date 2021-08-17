@@ -1,0 +1,136 @@
+/* The same css will also reflect in the Login form too. */
+.sign-upBackground{
+    background-color: whitesmoke;
+    padding:1px 2px 4px .5px;
+}
+.sign-upCard{
+    background-color: #ffffff;
+    width: 80%;
+    margin: 3.5% 10%;
+    padding: 4% .2% 4% 5%;
+    border-radius: 15px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.signup-content {
+    padding: 75px 0;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+.form-group-label{
+    position: relative;
+    margin-bottom: 25px;
+    overflow: hidden;
+    color: #222;
+}
+label {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: #222;
+}
+
+.signup-form {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-left: 34px;
+}
+.signup-form, .signup-image, .signin-form, .signin-image {
+    width: 50%;
+    overflow: hidden;
+}
+.sing_up_image{
+    width: 100%;
+    position: relative;
+}
+input {
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 6px 30px;
+    font-family: Poppins;
+    box-sizing: border-box;
+}
+input, select, textarea {
+    outline: none;
+}
+.form-submit {
+    display: inline-block;
+    background: #48a2f7;
+    color: #fff;
+    border-bottom: none;
+    width: auto;
+    padding: 15px 39px;
+    -webkit-border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.signup-image {
+    margin-top: 45px;
+}
+.signup-image {
+    width: 100%;
+    height: inherit;
+}
+figure {
+    margin-bottom: 50px;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+figure {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.signup-image-link {
+    font-size: 14px;
+    color: #222;
+    display: block;
+    text-align: center;
+}
+.form-title{
+    position: relative;
+    margin-bottom: 33px;
+    line-height:3.76px;
+    padding: 5%;
+    font-weight: 800px;
+    color: #222;
+    font-family: sans-serif;
+    font-size: 33px;
+}
+
+input[type=radio]:not(old) {
+    margin-left: 1em;
+    margin-top: .8em;
+    margin-bottom: .2em;
+    width: 2em;
+    font-size: 1em;
+    display: inline-block;
+}
+
+#user-type{
+    margin-left: 7em;
+    padding-left: 12%;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    border-radius: 6%;
+    font-weight: 600px;
+    font-size: 17.5px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 14rem;
+    text-align: center;
+    background-color: #48a2f7;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+.user-type{
+    color: grey;
+    margin-top: -.7em;
+    margin-left: 2em;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}

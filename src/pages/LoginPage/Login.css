@@ -1,0 +1,43 @@
+/* The css in login page is mostly derived from RegisterPage css: Here is the path: /../RegistrationPage/Register.css */
+.sign-inCard{
+    background-color: #ffffff;
+    width: 65%;
+    margin: 8.2% 15%;
+    padding: 4% .2% 4% 5%;
+    border-radius: 15px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.label-agree-term {
+    position: relative;
+    top: 0%;
+    -webkit-transform: translateY(0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type=checkbox]:not(old) {
+    width: 2em;
+    font-size: 1em;
+    display: inline-block;
+}
+
+/* Social Links */
+.social-login {
+    margin-top: 80px;
+    display: -webkit-flex;
+}
+.social-label {
+    display: inline-block;
+    margin-right: 15px;
+}
+.socials {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    display: -webkit-flex;
+}
+.socials li {
+    padding: 5px;
+}
